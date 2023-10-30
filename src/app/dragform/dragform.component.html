@@ -1,0 +1,33 @@
+
+<div appFreeDragging class="box" >
+    <nav class="navbar navbar-default navg"> 
+       <a class="wad">Ad Hoc Call</a>
+      <!-- <a class="x" >X</a> -->
+      <!-- <button  [ngClass]="{'hidden': boxHidden}" (click)="hideBox()">*</button> -->
+      <button class="x" routerLink="/blank">&times;</button>
+    </nav>
+    <div class="boxinside">
+  <form class="example-form" class="hyt" >
+  
+    <input type="text" id="ch"  placeholder="FakharZaman" class="input">
+    <input type="text" id="ch" placeholder="RPM-122993" class="input">
+    <input type="text" id="ch" placeholder="9716751121" class="input">
+    <input type="text" id="ch" placeholder="HyperTension" class="input" class="we">
+    <br>
+    <div class="buttonsclass">
+      <input type="date" id="datepicker" name="datepicke" class="dateg">
+ 
+       <span><button (click)="startTimer()" [disabled]="timerRunning" class="actionbutton">START:{{secondsDisplay}}</button></span>
+       <!-- <span><button (click)="startTimer()" [disabled]="timerRunning" class="actionbutton">END: --:--{{durationDisplay}}</button></span> -->
+       <span><button class="actionbutton" >Duration: {{ durationDisplay }}</button></span> 
+       <span><button (click)="stopTimer()" [disabled]="!timerRunning" class="actionbutton1">Stop</button></span>
+      </div>
+    <!-- Other form elements -->
+    <!-- <span><textarea name="" id="" cols="30" rows="10" class="boxmini" placeholder="Enter Something..."></textarea></span> -->
+    <app-new></app-new>
+    <span><button type="button" class="btnc" routerLink="/blank">Cancel</button></span>
+    <span><button type="submit" class="btnf" routerLink="/blank">Submit</button></span>
+  </form> 
+</div>   
+
+</div>
