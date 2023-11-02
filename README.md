@@ -1,28 +1,28 @@
-# AngularFreeDragging
+# Auto Suggestion, Auto Completion and Timer Functionality
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+## Description
 
-## Development server
+Created a front end design as per client requirements. Added timer functionality in it and auto dummy auto suggestion and auto completion functionality in it. At input box, If User
+type "PAK", it suggest "PAKISTAN IS GOOD" and if user click on arrow forward key, it accept that suggestion and auto fill input box.
+Similar functionality for "IND", it Suggest "INDIA IS BAD" 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents 
+- [Features](#features)
+- [Screenshots or Demos](#screenshots-or-demos)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-User Can Start Timer
+-User Can Stop Timer
+-User Can view Duration of Timer
+-User Can insert Text in input field
+-Auto suggestion facility in input field
+-Auto Completion facility in input field
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Screenshots or Demos
+![Screenshot from 2023-11-02 15-28-36](https://github.com/Muzammil1212/Auto-Suggest/assets/89682016/16b70e51-2396-4a9f-a74a-f887af791689)
+![Screenshot from 2023-11-02 15-29-03](https://github.com/Muzammil1212/Auto-Suggest/assets/89682016/b234ffad-c50e-4612-936e-d69c5d86b749)
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Auto-Suggest
